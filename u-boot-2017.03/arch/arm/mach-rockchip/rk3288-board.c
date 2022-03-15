@@ -21,8 +21,8 @@
 #include <power/regulator.h>
 
 DECLARE_GLOBAL_DATA_PTR;
-
-#define PMU_BASE	0xff730000
+//modify by crespo
+#define PMU_BASE	0xff730002//0xff730000
 
 static void setup_boot_mode(void)
 {
